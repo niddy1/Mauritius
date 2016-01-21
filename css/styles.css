@@ -1,0 +1,95 @@
+
+body {
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.hero{
+  background: url(images/mountains.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 650px;
+  color: white;
+  text-align: center;
+}
+#pretitle{
+  padding-top: 13%;
+  margin-bottom: -7%;
+}
+#title{
+  font-size: 11.5vw;
+  margin-bottom: 1%;
+}
+#title-description{
+  width: 40%;
+  text-align: center;
+  margin: 0 auto ;
+  margin-bottom: 10%;
+}
+#treasure-link{
+text-decoration: none;
+color: white;
+}
+
+#treasure-link:hover{
+  color: black;
+}
+#line{
+  line-height: .8;
+}
+
+#treasure-island{
+  padding-left: 10%;
+}
+
+#treasure-island-title{
+  margin-top: 7%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#map {
+  float: left;
+  margin-right: 10px;
+  width: 35%;
+}
+
+.paragraph {
+  margin-top: 3%;
+  overflow:auto;
+  display:block;
+  width: 40%;
+}
+#second-paragraph{
+  font-style: italic;
+}
+#kilo{
+  margin-top: 4%;
+  border-left: 2px solid #9F7800;
+  margin-left: 8%;
+  padding-left: 2%;
+  color: #9F7800;
+}
+#kilo-number{
+
+  margin-bottom: 0.5%;
+}
+#kilo-text{
+  font-size: 10px;
+}
+
+#hut{
+  float: right;
+  width: 21%;
+  margin-top: -8%;
+}
+
+p{
+  line-height: 1.8;
+}
+
+
+/*p.clear {
+    clear:both;
+}*/
