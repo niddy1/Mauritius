@@ -20,7 +20,6 @@ body {
 }
 #title{
   margin-top: -25px;
-
   font-size: 11.5vw;
   margin-bottom: 5px;
 }
@@ -56,6 +55,7 @@ color: white;
   float: left;
   margin-right: 10px;
   width: 450px;
+  margin-top: 60px;
 }
 
 .paragraph {
@@ -73,9 +73,10 @@ color: white;
   margin-left: 100px;
   padding-left: 10px;
   color: #9F7800;
+  display: block;
 }
 #kilo-number{
-
+  font-size: 45px;
   margin-bottom: 0.5%;
 }
 #kilo-text{
@@ -83,6 +84,7 @@ color: white;
 }
 
 #hut{
+  display: inline-block;
   float: right;
   width: 250px;
   margin-top: -100px;
@@ -90,6 +92,30 @@ color: white;
 
 p{
   line-height: 1.8;
+}
+
+@media (max-width: 700px) {
+  #map {
+    float: left;
+    margin-right: 10px;
+    width: 350px;
+    margin-top: 0px;
+  }
+  .paragraph{
+    width: 100%;
+  }
+  #hut{
+    display: inline-block;
+    float: right;
+    width: 250px;
+    margin-top: 0px;
+  }
+  #title{
+    margin-top: -25px;
+    font-size: 65px;
+  }
+
+
 }
 
 
